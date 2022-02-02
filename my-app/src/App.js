@@ -7,11 +7,14 @@ function App() {
     <div className="App">
 
       <header className="App-header">
-        <h1>GitHub Search</h1>
+        <h1 className='GitHubSearch'>GitHub Search</h1>
     
       </header>
+
       <main className='App-main'>
+
         <Users />
+
       </main>
     </div>
   );

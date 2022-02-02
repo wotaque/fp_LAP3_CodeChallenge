@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import './style.css';
+import '../App.css'
 
 export default function RepoDetails({details, loading}) {
 
@@ -19,16 +19,16 @@ export default function RepoDetails({details, loading}) {
             <div className="details-row">
                 <label className="label">Forks Count:</label>
                 <span className="value">{details.forks}</span>
-
             </div>
             <div className="details-row"> 
-                <label className="label">Language:</label>
-                <span className="value">{details.language}</span> 
+                <label className="label">Languages:</label>
+                <span className="value">{details.languages}</span> 
             </div>
             <div className="details-row"> 
                 <label className="label">Stars:</label>
                 <span className="value">{details.stargazerz_count}</span> 
             </div>
+           
         </div>
     )
 
