@@ -8,8 +8,8 @@ function App() {
     <div className="App">
 
       <header className="App-header">
-        <h1>GitHub Search</h1>
-        <img src={Cat} alt='cat'/>
+        <span><img src={Cat} alt='cat' height='80px'/>GitHub Search</span>
+        
       </header>
 
       <main className='App-main'>

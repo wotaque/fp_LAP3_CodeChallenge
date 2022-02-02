@@ -22,7 +22,7 @@ export default function RepoDetails({details, loading}) {
             </div>
             <div className="details-row"> 
                 <label className="label">Languages:</label>
-                <span className="value">{details.languages}</span> 
+                <span className="value">{details.language}</span> 
             </div>
             <div className="details-row"> 
                 <label className="label">Stars:</label>
