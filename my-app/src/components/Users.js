@@ -1,9 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
-
-
 import RepoDetails from './RepoDetails';
-
 import '../App.css'
 
 
@@ -47,7 +44,6 @@ const Users = () => {
                 key={repo.id}
             >
                 <h2 className='repo-name'>
-                    Hello
                 {repo.name}
                 </h2>
             </div>
@@ -77,7 +73,7 @@ const Users = () => {
                             onChange={e => {setUsername(e.target.value)}}
                             placeholder='type GitHub userName'
                         />
-                        <button className='button' onClick={handleSubmit}>{loading ? 'Loading...' : 'Search'}</button>
+                        <button className='button' onClick={handleSubmit} required>{loading ? 'Loading...' : 'Search'}</button>
                     </form>
 
                     <div className='results'>
