@@ -8,5 +8,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Copy the repo link from `GitHub`, clone via `VS Code` and cd into `my-app` folder.
 
 Run `npm install` for dependencies.
-Run `npm run start` to launch teh server. 
+Run `npm run start` to launch the server. 
 
